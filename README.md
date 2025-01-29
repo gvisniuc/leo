@@ -1,4 +1,4 @@
-# Self hosted version of a Slack thread summarizer
+# 🦁 Self hosted version of a Slack thread summarizer
 # Catch up with long threads in Slack without needing ngrok or a tunneling service to capture events
 
 ## How it works

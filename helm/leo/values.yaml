@@ -1,0 +1,25 @@
+replicaCount: 1
+
+leo:
+  image: leo
+  tag: latest
+  environment: production
+  # set to never when using local images
+  pullPolicy: Always
+
+externalSecret:
+  # Set to current unix timestamp if you want to force sync the external secret
+  forceSyncTimestamp: 1685097611
+
+resources:
+  requests:
+    cpu: 250m
+    memory: 256Mi
+  limits:
+    cpu: 500m
+    memory: 512Mi
+
+nodeSelector:
+  eks.amazonaws.com/capacityType: ON_DEMAND
+
+affinity: {}

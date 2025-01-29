@@ -1,0 +1,2 @@
+slack_bolt==1.22.0
+openai==1.59.7

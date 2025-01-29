@@ -12,3 +12,4 @@
 1. docker build -t leo .
 2. docker run -e SLACK_APP_TOKEN=<token> -e SLACK_BOT_TOKEN=<token> -e OPENAI_API_KEY=<token> -e MAX_SUMMARY_BULLETS=5 leo
 
+![alt text](image.png)
